@@ -5,7 +5,7 @@ import numpy.random as nprand
 MAX_VAL = 1000000
 MAX_N = 1000000
 COMPILE = True
-PROGRAM_NAME = "MedianOfMedians"
+PROGRAM_NAME = "solution"
 
 class Test:
     def generate(self,MAX_N,MAX_VAL):
