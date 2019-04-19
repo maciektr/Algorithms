@@ -59,7 +59,9 @@ int main(){
     ios_base::sync_with_stdio(0);
     int *tab=NULL;
     int n = getInput(tab);
-    cout<<select(tab,n,n/2)<<endl;
+    int k;
+    cin>>k;
+    cout<<select(tab,n,k)<<endl;
     delete[] tab;
 }
 
