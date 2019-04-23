@@ -28,3 +28,5 @@
 *.app
 
 *.in
+
+Skiplist/\.directory
