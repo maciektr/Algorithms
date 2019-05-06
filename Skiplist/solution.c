@@ -80,7 +80,9 @@ void removeElement(SkipList *sl, int key){
         if(p->next[level]==r)
             p->next[level] = r->next[level];
     }
-
+    free(r->value);
+    free(r->next);
+    free(r);
 }
 
 void solve(SkipList *sl){
