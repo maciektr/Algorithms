@@ -30,3 +30,5 @@
 *.in
 
 Skiplist/\.directory
+
+\.README\.md\.kate-swp
